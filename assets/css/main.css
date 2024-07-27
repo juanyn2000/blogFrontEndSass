@@ -1,0 +1,430 @@
+.categorys {
+  display: flex;
+  flex-direction: column;
+  margin-left: 141px;
+}
+.categorys__title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: left;
+}
+.categorys__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+  width: 298px;
+  margin-bottom: 51px;
+  width: 298px;
+  height: 89px;
+  top: 900px;
+  left: 873px;
+  border-radius: 10px;
+}
+.categorys__logo {
+  width: 85px;
+  height: 74px;
+  left: 883px;
+}
+.categorys__text {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.categorys__paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+.categorys__html {
+  background-color: #e93e30;
+}
+.categorys__js {
+  background-color: #f7e018;
+}
+.categorys__css {
+  background-color: #299ed5;
+}
+.categorys__react {
+  background-color: #292c33;
+}
+.categorys__vue {
+  background-color: #67c770;
+}
+.categorys__boots {
+  background-color: #563d7c;
+}
+
+.body {
+  display: flex;
+  margin-top: 58px;
+  justify-content: space-between;
+}
+
+.populares__title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: left;
+}
+.populares__leftInt {
+  display: flex;
+  margin-bottom: 47px;
+}
+.populares__left2 {
+  margin-left: 25px;
+}
+.populares__card {
+  margin-bottom: 58px;
+}
+.populares__logo {
+  width: 298px;
+  height: 200px;
+  top: 900px;
+  left: 105px;
+  border-radius: 20px;
+}
+.populares__date {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.populares__tittle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+.populares__dLatam {
+  display: flex;
+  align-items: center;
+}
+.populares__logo_D_l {
+  width: 39.79px;
+  height: 40px;
+  left: 983px;
+  border-radius: 77px;
+}
+.populares__text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.novedades {
+  padding-bottom: 65px;
+}
+.novedades__contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+.novedades__tittle {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: left;
+}
+
+.contenedor__sectionLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionLeft__logoBootstrap {
+  border-radius: 20px;
+  width: 603px;
+  height: 314px;
+  top: 226px;
+  left: 105px;
+}
+.sectionLeft__date {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+.sectionLeft__subtittle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+.sectionLeft__contLogo {
+  display: flex;
+  align-items: center;
+}
+.sectionLeft__logo_D_L {
+  width: 60px;
+  height: 60px;
+  top: 653px;
+  left: 105px;
+  border-radius: 77px;
+}
+.sectionLeft__text {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.sectionRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 56px;
+}
+.sectionRight__card {
+  display: flex;
+  align-items: center;
+  height: 145px;
+}
+
+.card__logo {
+  width: 189px;
+  height: 145px;
+  top: 226px;
+  left: 764px;
+  border-radius: 20px;
+}
+.card__rightSide {
+  display: flex;
+  flex-direction: column;
+  margin-left: 31px;
+  height: 150px;
+  padding-top: 15px;
+}
+.card__date {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.card__subtittle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+.card__contDesafioLatam {
+  display: flex;
+  align-items: center;
+}
+.card__logo_D_l {
+  width: 39.79px;
+  height: 40px;
+  left: 983px;
+  border-radius: 77px;
+}
+.card__text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.form, .login__form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+.form__input, .login__form__input {
+  height: 30px;
+  padding-top: 5px;
+  margin-bottom: 20px;
+}
+.form__button, .login__form__button {
+  height: 40px;
+  background-color: #729e2e;
+  border: 0;
+  border-radius: 3%;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button__google {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  margin-top: 20px;
+  background-color: white;
+  border-color: #e9e3e3;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.button__ico {
+  width: 30px;
+  height: 30px;
+}
+.button__text {
+  padding-left: 5px;
+}
+
+.subscription {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 160px 80px 160px;
+  background-color: #729e2e;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+.subscription__left {
+  margin: 0px 20px 0px 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.subscription__description {
+  color: white;
+  font-weight: bold;
+}
+.subscription__input {
+  height: 40px;
+  width: 400px;
+  border-radius: 3%;
+}
+.subscription__right {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  padding-right: 60px;
+}
+.subscription__button {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 300px;
+  border-radius: 3%;
+  background-color: rgb(173, 165, 165);
+  font-weight: bold;
+  font-size: larger;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  height: 130px;
+  border-bottom: #cccccc 2px solid;
+  align-items: center;
+}
+.header__logo {
+  width: 55px;
+  height: 55px;
+  top: 38px;
+  left: 109px;
+  border-radius: 10%;
+}
+.header__text {
+  margin: 0px 0px 0px 25px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: #cccccc 2px solid;
+  padding-top: 20px;
+  margin-top: auto;
+}
+.footer__content {
+  display: flex;
+  align-items: center;
+}
+.footer__logo {
+  width: 55px;
+  height: 55px;
+  top: 1742px;
+  left: 105px;
+  border-radius: 10px;
+}
+.footer__text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  margin-left: 5px;
+}
+.footer__paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+* {
+  font-family: "poppins", sans-serif;
+  color: #171717;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: auto;
+  width: 1280px;
+}
+
+.wraper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.principalBoots__post {
+  display: flex;
+}
+
+.principalBoots .principalBoots__post .populares__date {
+  padding-left: 30px;
+}
+
+.principalBody {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  align-items: center;
+  border-radius: 0.25rem;
+  background-color: rgb(216, 216, 216);
+}
+.principalBody__logo {
+  border-radius: 0.75rem;
+  margin: 20px 0px 20px 0px;
+}
+
+.relacionados {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.relacionados__card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}/*# sourceMappingURL=main.css.map */

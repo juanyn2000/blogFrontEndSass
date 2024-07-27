@@ -1,0 +1,114 @@
+.novedades {
+  // margin-left: 105px;
+  padding-bottom: 65px;
+  &__contenedor {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__tittle {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+  }
+}
+.contenedor__sectionLeft {
+  display: flex;
+  flex-direction: column;
+}
+.sectionLeft {
+  &__logoBootstrap {
+    border-radius: 20px;
+    width: 603px;
+    height: 314px;
+    top: 226px;
+    left: 105px;
+  }
+  &__date {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+  }
+  &__subtittle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+  }
+  &__contLogo {
+    display: flex;
+    align-items: center;
+  }
+  &__logo_D_L {
+    width: 60px;
+    height: 60px;
+    top: 653px;
+    left: 105px;
+    border-radius: 77px;
+  }
+  &__text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    padding-left: 10px;
+  }
+}
+
+.sectionRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 56px;
+  &__card {
+    display: flex;
+    align-items: center;
+    height: 145px;
+  }
+}
+.card{
+  &__logo {
+    width: 189px;
+    height: 145px;
+    top: 226px;
+    left: 764px;
+    border-radius: 20px;
+  }
+  &__rightSide {
+    display: flex;
+    flex-direction: column;
+    margin-left: 31px;
+    height: 150px;
+    padding-top: 15px;
+  }
+  &__date {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+  &__subtittle {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+  }
+  &__contDesafioLatam {
+    display: flex;
+    align-items: center;
+  }
+  &__logo_D_l {
+    width: 39.79px;
+    height: 40px;
+    left: 983px;
+    border-radius: 77px;
+  }
+  &__text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 5px;
+  }
+}

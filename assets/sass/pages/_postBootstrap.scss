@@ -1,0 +1,32 @@
+.principalBoots {
+  &__post {
+    display: flex;
+  }
+}
+.principalBoots .principalBoots__post .populares__date {
+  padding-left: 30px;
+}
+
+.principalBody {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  align-items: center;
+  border-radius: 0.25rem;
+  background-color: rgb(216, 216, 216);
+  &__logo {
+    border-radius: 0.75rem;
+    margin: 20px 0px 20px 0px;
+  }
+}
+.relacionados {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  &__card {
+    display: flex;
+    justify-content: space-around;
+  }
+}

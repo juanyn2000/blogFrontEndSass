@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.form, .login__form{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  &__input {
+    height: 30px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+  }
+  &__button {
+    height: 40px;
+    background-color: #729e2e;
+    border: 0;
+    border-radius: 3%;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+.button {
+  &__google {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin-top: 20px;
+    background-color: white;
+    border-color: #e9e3e3;
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+  &__ico {
+    width: 30px;
+    height: 30px;
+  }
+  &__text {
+    padding-left: 5px;
+  }
+}
+.subscription {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 160px 80px 160px;
+  background-color: #729e2e;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  &__left {
+    margin: 0px 20px 0px 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  &__description{
+    color: white;
+    font-weight: bold;
+  }
+  &__input{
+    height: 40px;
+    width: 400px;
+    border-radius: 3%;
+  }
+  &__right{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding-right: 60px;
+  }
+  &__button{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 300px;
+    border-radius: 3%;
+    background-color: rgb(173, 165, 165);
+    font-weight: bold;
+    font-size:larger;
+    align-items: center;
+  }
+}
+

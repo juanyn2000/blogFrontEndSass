@@ -1,0 +1,23 @@
+//abstracts
+//base
+//components
+@use 'components/categorys';
+@use 'components/populares';
+@use 'components/novedades';
+@use 'components/forms';
+// @use 'components/login';
+
+
+//layout
+@use 'layout/header';
+@use 'layout/footer';
+@use 'layout/body';
+
+
+//pages
+@use 'pages/postBootstrap';
+@use 'pages/login';
+
+
+//themes
+//vendors
